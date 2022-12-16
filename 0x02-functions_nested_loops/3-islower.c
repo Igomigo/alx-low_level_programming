@@ -3,7 +3,7 @@
 /**
  * main - A function that checks for lowercase
  * @c: The character to be checked
- * _islower: function to be declared
+ * @_islower: function to be declared
  *
  * Return: 1 if character is lowercase, otherwise return 0
  */
