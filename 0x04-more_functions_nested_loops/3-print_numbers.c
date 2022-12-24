@@ -1,20 +1,18 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * print_numbers - function tha prints the 0 to 9 numbers
- *
- * Return: 0
- */
+*print_numbers - print 0123456789
+* owned by Vikcent
+*Return: void
+*/
 
 void print_numbers(void)
 {
-	int num;
+	int c;
 
-	for (num = 0; num <= 9; num++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(num);
+	_putchar(c);
 	}
 	_putchar('\n');
-
-	return (0);
 }
