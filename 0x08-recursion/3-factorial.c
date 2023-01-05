@@ -3,14 +3,20 @@
 /**
  * factorial - function that returns factorial
  * @n: number
- * Return: 0
+ * Return: int
  */
 
 int factorial(int n)
 {
+	int a;
+
 	if (n < 0)
-
+	{
 		return (-1);
-
-	return (n * factorial(n - 1));
+	}
+	else
+	{
+		a = n * factorial(n - 1);
+	}
+	return (a);
 }
